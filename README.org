@@ -1,0 +1,6 @@
+* Calling Rust from C
+
+=rust-from-c= contains the relevant code.
+It's a simple structure to store the values of an array.
+
+=cargo build; gcc values.c -L ./target/debug -lrustfromc; ./a.out=
